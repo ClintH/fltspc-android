@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">fltspc</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_toolbox">Pen</string>
+    <string name="btn_toolbox_eraser">Eraser</string>
+    <string name="options_menu_save">Save to pictures</string>
+    <string name="title_activity_shared_screen">SharedScreenActivity</string>
+    <string name="title_activity_shared_screen_view">SharedScreenViewActivity</string>
+    <string name="title_activity_sharted_screen_view">ShartedScreenView</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_surface_select">Surface Select</string>
+    <string name="title_activity_surface_edit">Surface edit</string>
+    <string name="pref_server">Server Uri</string>
+    <string name="title_activity_label_view">LabelViewActivity</string>
+    <string name="menu_commit">Save</string>
+    <String name="menu_commit">Save</String>
+</resources>

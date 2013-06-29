@@ -1,0 +1,50 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#0099cc"
+    tools:context=".activities.SurfaceActivity"
+    android:orientation="vertical"
+    android:paddingTop="40dp">
+
+
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sign in"
+                            android:id="@+id/btnSignin"
+                            android:layout_gravity="left|center_vertical"
+                            android:layout_column="1"/>
+
+        <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Surfaces"
+                        android:id="@+id/btnSurfaces"
+                        android:layout_gravity="left|center_vertical"
+                        />
+    </TableRow>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Status message"
+            android:id="@+id/txtStatus"
+            android:layout_gravity="left|center_vertical"
+            android:textIsSelectable="true"/>
+
+    <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/lstSurfaces"
+                />
+
+
+
+
+</TableLayout>
+

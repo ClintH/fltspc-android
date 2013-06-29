@@ -1,0 +1,49 @@
+<LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:id="@+id/layout"
+        android:longClickable="true"
+        tools:context=".activities.LabelViewActivity">
+
+
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="left|center_vertical"
+            android:orientation="horizontal">
+
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Title"
+                android:background="@android:color/transparent"
+                android:id="@+id/txtTitle"
+                android:layout_gravity="center_vertical|left"
+                android:editable="true"
+                android:gravity="left"/>
+
+        <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ok"
+                android:id="@+id/btnCommit"/>
+    </LinearLayout>
+
+
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Content"
+            android:background="@android:color/transparent"
+            android:id="@+id/txtContent"
+            android:layout_gravity="left|center_vertical"
+            android:editable="true"/>
+</LinearLayout>
